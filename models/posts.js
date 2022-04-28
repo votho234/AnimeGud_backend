@@ -2,8 +2,9 @@ const mongoose = require('mongoose');
 
 const postSchema = mongoose.Schema({
     title: String,
-    category: String,
-    content: String,
+    type: String,
+    synopsis: String,
+    score: String,
     image: String,
     created: {
         type: Date,
